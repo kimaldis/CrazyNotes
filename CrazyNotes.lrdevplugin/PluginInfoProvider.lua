@@ -18,13 +18,12 @@ You should have received a copy of the GNU General Public License
 along with CrazyNotes. If not, see <http://www.gnu.org/licenses/>.
 ]]
 
-local Require = require 'Require'.path ("../debugscript.lrdevplugin", "../lib")
-Debug = require 'Debug'.init ()
+--local Require = require 'Require'.path ("../debugscript.lrdevplugin", "../lib")
+--Debug = require 'Debug'.init ()
 
 -- need these if the plugin isn't running.
-require '../lib/class'
-require '../lib/utils'
-require '../lib/Notify'
+require 'class'
+require 'Notify'
 require "Preferences"
 
 
